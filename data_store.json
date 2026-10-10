@@ -1,0 +1,361 @@
+{
+  "orders": [
+    {
+      "id": "ord-1791538240923",
+      "serialNo": 24,
+      "orderNumber": "24",
+      "invoiceNumber": "INV-0024",
+      "customerName": "tuhin",
+      "customerPhone": "01700000000",
+      "customerAddress": "savar",
+      "deliveryArea": "outside",
+      "paymentMethod": "cod",
+      "paymentChannel": "cod",
+      "items": [
+        {
+          "productName": "আফগানি গোল্ডেন কিসমিস (Golden Raisins)",
+          "quantity": 1,
+          "price": 450,
+          "originalPrice": 520,
+          "discountPercent": 13,
+          "weightAmount": "১ কেজি"
+        }
+      ],
+      "subtotal": 450,
+      "originalSubtotal": 520,
+      "discountAmount": 70,
+      "discountPercent": 13,
+      "deliveryFee": 130,
+      "total": 580,
+      "advancePaid": 0,
+      "dueAmount": 580,
+      "status": "processing",
+      "createdAt": "09-10-2026, 03:30 PM"
+    }
+  ],
+  "submissions": [
+    {
+      "type": "express_order",
+      "name": "tuhin",
+      "email": "express@halalbazar.com",
+      "phone": "01700000000",
+      "message": "ঠিকানা: savar",
+      "details": {
+        "address": "savar",
+        "deliveryArea": "Outside Dhaka",
+        "deliveryFee": 130,
+        "paymentMethod": "cod",
+        "discountAmount": 0,
+        "cartItems": [
+          {
+            "productName": "আফগানি গোল্ডেন কিসমিস (Golden Raisins)",
+            "quantity": 1,
+            "price": 450,
+            "originalPrice": 520,
+            "discountPercent": 13,
+            "weightAmount": "১ কেজি"
+          }
+        ],
+        "totalAmount": 580
+      },
+      "id": "sub-1791538240538",
+      "timestamp": "09-10-2026, 03:30 PM"
+    },
+    {
+      "type": "express_order",
+      "name": "tuhin",
+      "email": "express@halalbazar.com",
+      "phone": "017934398477",
+      "message": "ঠিকানা: dhaka ",
+      "details": {
+        "address": "dhaka ",
+        "deliveryArea": "Inside Dhaka",
+        "deliveryFee": 70,
+        "paymentMethod": "cod",
+        "discountAmount": 0,
+        "cartItems": [
+          {
+            "productName": "কাজু বাদাম",
+            "quantity": 1,
+            "price": 1790,
+            "originalPrice": 1890,
+            "discountPercent": 5,
+            "weightAmount": "১ কেজি"
+          }
+        ],
+        "totalAmount": 1860
+      },
+      "id": "sub-1791535546468",
+      "timestamp": "09-10-2026, 02:45 PM"
+    },
+    {
+      "type": "express_order",
+      "name": "tanvir",
+      "email": "express@halalbazar.com",
+      "phone": "01329571899",
+      "message": "ঠিকানা: dhaka | নোট: sabdhan",
+      "details": {
+        "address": "dhaka",
+        "orderNotes": "sabdhan",
+        "deliveryArea": "Inside Dhaka",
+        "deliveryFee": 70,
+        "paymentMethod": "cod",
+        "discountAmount": 0,
+        "cartItems": [
+          {
+            "productName": "কাজু বাদাম",
+            "quantity": 1,
+            "price": 1790,
+            "originalPrice": 1890,
+            "discountPercent": 5,
+            "weightAmount": "১ কেজি"
+          }
+        ],
+        "totalAmount": 1860
+      },
+      "id": "sub-1791517768227",
+      "timestamp": "09-10-2026, 09:49 AM"
+    },
+    {
+      "type": "express_order",
+      "name": "Rimi ",
+      "email": "express@halalbazar.com",
+      "phone": "01793439488",
+      "message": "ঠিকানা: savar",
+      "details": {
+        "address": "savar",
+        "deliveryArea": "Outside Dhaka",
+        "deliveryFee": 130,
+        "paymentMethod": "cod",
+        "discountAmount": 0,
+        "cartItems": [
+          {
+            "productName": "কাজু বাদাম",
+            "quantity": 1,
+            "price": 1790,
+            "originalPrice": 1890,
+            "discountPercent": 5,
+            "weightAmount": "১ কেজি"
+          }
+        ],
+        "totalAmount": 1920
+      },
+      "id": "sub-1791517483151",
+      "timestamp": "09-10-2026, 09:44 AM"
+    }
+  ],
+  "testimonials": [],
+  "products": [],
+  "settings": {
+    "storeName": "Halal Bazar BD",
+    "storeTagline": "শতভাগ প্রিমিয়াম ড্রাই ফ্রুটস, বাদাম এবং এক্সক্লুসিভ কোয়ালিটি পোশাক ও ফ্যাশন কালেকশন",
+    "logoLetter": "হ",
+    "logoImage": "/assets/images/logo_halal_bazar.png",
+    "primaryColor": "#064e3b",
+    "secondaryColor": "#0284c7",
+    "themeId": "emerald-deep-green",
+    "phone": "01329571899,01793439488",
+    "email": "tanvir.ahmed.personal.access88@gmail.com",
+    "address": "Hemayetpur , Savar ,Dhaka .",
+    "deliveryFeeDhaka": 70,
+    "deliveryFeeOutside": 130,
+    "lowStockThreshold": 15,
+    "enableLowStockAlerts": true,
+    "nextInvoiceNumber": 25,
+    "invoicePrefix": "INV-",
+    "bkashNumber": "01793439488",
+    "bkashType": "personal",
+    "nagadNumber": "01793439488",
+    "nagadType": "personal",
+    "paymentInstructionsBn": "বিকাশ বা নগদ থেকে উপরের নম্বরে Send Money / পেমেন্ট করার পর নিচের বক্সে আপনার বিকাশ/নগদ নম্বর এবং ট্রানজেকশন আইডি (TrxID) প্রদান করুন।",
+    "announcementText": "বিশেষ ধামাকা অফার: সকল প্রিমিয়াম ড্রাই ফ্রুটস ও পোশাকে আকর্ষণীয় মূল্যছাড়!",
+    "isAnnouncementActive": true,
+    "heroBadge": "আমাদের বিশুদ্ধতার অঙ্গীকার",
+    "heroTitle": "কোনো ভেজাল নেই, শতভাগ প্রাকৃতিক স্বাদে রান্নায় আনুন খাঁটি তৃপ্তি",
+    "heroSubtitle": "বিশ্বের সেরা বাগান থেকে বাছাইকৃত ১০০% প্রিমিয়াম কাজুবাদাম, কাঠবাদাম, পেস্তা, কিসমিস ও খেজুরের পাশাপাশি ঐতিহ্যবাহী পাঞ্জাবি, শাড়ি ও পোশাকের সেরা সমাহার।",
+    "heroCtaText": "অর্ডার করুন",
+    "heroImage": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=1200&q=80",
+    "clothingHeroBadge": "👗 ১০০% প্রিমিয়াম সুতি ও ঐতিহ্যবাহী ফ্যাশন",
+    "clothingHeroTitle": "ঐতিহ্যবাহী ও আধুনিক প্রিমিয়াম পোশাক কালেকশন — আভিজাত্য ও ফ্যাশনের সেরা ঠিকানা",
+    "clothingHeroSubtitle": "রয়েল কটন এমব্রয়ডারি পাঞ্জাবি, ঐতিহ্যবাহী ঢাকাই জামদানি শাড়ি, প্রিমিয়াম বুটিক থ্রি-পিস, আরামদায়ক পোলো টি-শার্ট ও এক্সক্লুসিভ দুবাই বোরকা-হিজাবের চমৎকার কালেকশন।",
+    "clothingHeroCtaText": "পোশাক কালেকশন দেখুন",
+    "clothingHeroImage": "/src/assets/images/hero_premium_apparel_1791006163359.jpg",
+    "clothingHeroFloatingBadge": "১০০% ফেব্রিক ও সাইজ গ্যারান্টি",
+    "footerText": "হালাল বাজার বিডি — আপনার আস্থার বিশ্বস্ত অনলাইন গ্রোসারি শপ।",
+    "navItems": [
+      {
+        "href": "#about",
+        "labelBn": "বিশুদ্ধতা",
+        "id": "about",
+        "labelEn": "Purity"
+      },
+      {
+        "id": "products",
+        "labelEn": "পণ্যসম্ভার",
+        "href": "#products",
+        "labelBn": "পণ্যসম্ভার"
+      },
+      {
+        "labelBn": "পোশাক",
+        "href": "#clothing",
+        "id": "clothing",
+        "labelEn": "Clothing"
+      },
+      {
+        "id": "services",
+        "labelEn": "Milling",
+        "labelBn": "প্রক্রিয়াজাতকরণ",
+        "href": "#services"
+      },
+      {
+        "href": "#faq",
+        "labelEn": "FAQ",
+        "labelBn": "প্রশ্নোত্তর",
+        "id": "faq"
+      },
+      {
+        "href": "#contact",
+        "labelEn": "Support",
+        "id": "contact",
+        "labelBn": "অর্ডার ও সহায়তা"
+      }
+    ],
+    "categoryNavItems": [
+      {
+        "id": "cat-all",
+        "labelBn": "সব ড্রাই ফ্রুটস ও নাড়ু",
+        "labelEn": "All Dry Fruits & Naru",
+        "categoryKey": "all",
+        "icon": "🥜"
+      },
+      {
+        "id": "cat-nuts",
+        "labelBn": "প্রিমিয়াম বাদাম",
+        "labelEn": "Premium Nuts",
+        "categoryKey": "nuts"
+      },
+      {
+        "id": "cat-naru",
+        "labelBn": "ঐতিহ্যবাহী নাড়ু ও মিষ্টি",
+        "labelEn": "Traditional Naru & Sweets",
+        "categoryKey": "naru",
+        "icon": "🥥",
+        "badge": "স্পেশাল"
+      },
+      {
+        "id": "cat-dates",
+        "labelBn": "খেজুর ও আঞ্জির",
+        "labelEn": "Dates & Figs",
+        "categoryKey": "dates"
+      },
+      {
+        "id": "cat-raisins",
+        "labelBn": "কিসমিস ও বেরি",
+        "labelEn": "Raisins & Berries",
+        "categoryKey": "raisins"
+      },
+      {
+        "id": "cat-mix",
+        "labelBn": "মিক্সড ড্রাই ফ্রুটস",
+        "labelEn": "Mixed Dry Fruits",
+        "categoryKey": "mix"
+      },
+      {
+        "id": "cat-dryfruits",
+        "labelBn": "ড্রাই ফ্রুটস",
+        "labelEn": "Dry Fruits",
+        "categoryKey": "dryfruits"
+      },
+      {
+        "id": "cat-dress",
+        "labelBn": "পোশাক কালেকশন",
+        "labelEn": "Apparel Collection",
+        "categoryKey": "dress",
+        "icon": "👗"
+      }
+    ],
+    "facebookUrl": "https://www.facebook.com/profile.php?id=100069870883835",
+    "whatsappNumber": "01329571899",
+    "spicesImage": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=800&q=80",
+    "clothingImage": "/src/assets/images/hero_premium_apparel_1791006163359.jpg",
+    "heroSlides": [
+      {
+        "badgeEn": "✨ 100% Premium Dry Fruits & Nuts",
+        "subtitleEn": "Directly sourced premium organic dry fruits and nuts.",
+        "ctaBn": "পণ্য অর্ডার করুন",
+        "titleBn": "কোনো ভেজাল নেই, শতভাগ প্রাকৃতিক স্বাদে রান্নায় আনুন খাঁটি তৃপ্তি",
+        "id": "slide-default-1",
+        "titleEn": "Special Discount on Jumbo Cashews, Almonds & Dates!",
+        "subtitleBn": "বিশ্বের সেরা বাগান থেকে বাছাইকৃত ১০০% প্রিমিয়াম কাজুবাদাম, কাঠবাদাম, পেস্তা, কিসমিস ও খেজুরের পাশাপাশি ঐতিহ্যবাহী পাঞ্জাবি, শাড়ি ও পোশাকের সেরা সমাহার।",
+        "ctaEn": "Order Dry Fruits",
+        "targetAnchor": "#products",
+        "badgeBn": "আমাদের বিশুদ্ধতার অঙ্গীকার"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1200&q=80",
+        "ctaBn": "অর্ডার করুন",
+        "badgeBn": "🔥 নতুন ধামাকা অফার ২০২৬",
+        "subtitleEn": "Detailed offer subheadline",
+        "badgeEn": "🔥 New Mega Offer 2026",
+        "id": "slide-1791282947239",
+        "ctaEn": "Order Now",
+        "titleBn": "আপনার আকর্ষণীয় অফার বা প্রোডাক্টের শিরোনাম লিখুন",
+        "titleEn": "Your new promotion headline here",
+        "subtitleBn": "ব্যানারের বর্ণনা ও বিশেষ ছাড়ের তথ্য উল্লেখ করুন।",
+        "targetAnchor": "#products"
+      },
+      {
+        "titleEn": "Your new promotion headline here",
+        "ctaEn": "Order Now",
+        "titleBn": "আপনার আকর্ষণীয় অফার বা প্রোডাক্টের শিরোনাম লিখুন",
+        "targetAnchor": "#products",
+        "badgeEn": "🔥 New Mega Offer 2026",
+        "subtitleBn": "ব্যানারের বর্ণনা ও বিশেষ ছাড়ের তথ্য উল্লেখ করুন।",
+        "badgeBn": "🔥 নতুন ধামাকা অফার ২০২৬",
+        "ctaBn": "অর্ডার করুন",
+        "subtitleEn": "Detailed offer subheadline",
+        "id": "slide-1791282957471"
+      }
+    ],
+    "adminPassword": "tanvir88",
+    "customTestimonials": [
+      {
+        "id": "t-2",
+        "authorBn": "",
+        "productName": "",
+        "quoteBn": "",
+        "roleBn": "",
+        "rating": 5
+      }
+    ],
+    "adminUsers": [
+      {
+        "name": "সুপার এডমিন",
+        "role": "admin",
+        "password": "tanvir88",
+        "id": "master-admin",
+        "email": "admin@halalbazarbd.com"
+      }
+    ],
+    "customFaqs": [
+      {
+        "id": "sp_f1",
+        "questionBn": "আপনাদের ড্রাই ফ্রুটস ও বাদাম শতভাগ সতেজ ও প্রিমিয়াম হওয়ার নিশ্চয়তা কী?",
+        "answerBn": "আমাদের প্রতিটি ড্রাই ফ্রুটস ও বাদাম প্রিমিয়াম গ্রেডের এবং নতুন মৌসুমের তাজা স্টক। কোনো প্রকার কৃত্রিম রঙ, কেমিক্যাল বা পুরনো তেল ব্যবহার করা হয় না। প্রতিটি প্যাকেট এয়ারটাইট ফুড-গ্রেড প্যাকেজিংয়ে সরবরাহ করা হয়।"
+      },
+      {
+        "id": "sp_f2",
+        "questionBn": "পোশাকের সাইজ বা কালার পছন্দ না হলে কি এক্সচেঞ্জ করা যাবে?",
+        "answerBn": "হ্যাঁ! পাঞ্জাবি, শাড়ি, থ্রি-পিস বা পোলো টি-শার্টের সাইজে কোনো সমস্যা হলে ডেলিভারি পাওয়ার ৩ দিনের মধ্যে সম্পূর্ণ বিনামূল্যে সাইজ এক্সচেঞ্জ সুবিধা পাবেন।"
+      },
+      {
+        "answerBn": "ঢাকার ভেতর ডেলিভারি চার্জ ৭০  টাকা (২৪-৪৮ ঘণ্টায় হোম ডেলিভারি) এবং ঢাকার বাইরে ১৩০ টাকা (২-৩ দিনে কুরিয়ার হোম ডেলিভারি)। ক্যাশ অন ডেলিভারিতে পণ্য দেখে টাকা পরিশোধ করতে পারবেন।",
+        "questionEn": "ডেলিভারি চার্জ কত এবং কতদিনে পণ্য হাতে পাব?",
+        "answerEn": "ঢাকার ভেতর ডেলিভারি চার্জ ৭০  টাকা (২৪-৪৮ ঘণ্টায় হোম ডেলিভারি) এবং ঢাকার বাইরে ১৩০ টাকা (২-৩ দিনে কুরিয়ার হোম ডেলিভারি)। ক্যাশ অন ডেলিভারিতে পণ্য দেখে টাকা পরিশোধ করতে পারবেন।",
+        "questionBn": "ডেলিভারি চার্জ কত এবং কতদিনে পণ্য হাতে পাব?",
+        "id": "sp_f3"
+      }
+    ],
+    "storeBadgeBn": "বিশ্বাস ও শুদ্ধতার আস্থা"
+  }
+}
